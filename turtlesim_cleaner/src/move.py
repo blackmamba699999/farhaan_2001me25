@@ -144,7 +144,7 @@ def move():
 
 if __name__ == '__main__':
     try:
-        #Testing our function
+        
         move()
         vel_msg.linear.y = 0
         vel_msg.linear.x=0
